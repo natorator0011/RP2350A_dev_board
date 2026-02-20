@@ -326,6 +326,10 @@
       {
         "netclass": "PWR",
         "pattern": "+*"
+      },
+      {
+        "netclass": "DATA",
+        "pattern": "/QSPI*"
       }
     ]
   },
