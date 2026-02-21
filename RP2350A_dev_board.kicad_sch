@@ -182,206 +182,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1771,6 +1571,206 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:Conn_02x02_Odd_Even_custom"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 1.27 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "I2C Headers"
+				(at 1.27 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_custom_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5142,8 +5142,8 @@
 		(uuid 2dad8c49-256b-4260-9618-b31a65630662)
 	)
 	(rectangle
-		(start 58.42 66.04)
-		(end 101.6 83.82)
+		(start 48.26 66.04)
+		(end 91.44 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -5213,7 +5213,7 @@
 	)
 	(text "I2C Interface"
 		(exclude_from_sim no)
-		(at 93.98 81.28 0)
+		(at 83.82 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5484,6 +5484,12 @@
 		(uuid "7e92e9a3-4bf0-42eb-b606-baafb9b38977")
 	)
 	(junction
+		(at 99.06 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ed98be-3602-45ff-bd72-a8b7ff28abf9")
+	)
+	(junction
 		(at 50.8 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5598,10 +5604,22 @@
 		(uuid "c30d1ec9-efec-4829-993e-d96e7a37977b")
 	)
 	(junction
+		(at 104.14 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c78671ac-4aff-4f3b-9dcf-813ae67a69fc")
+	)
+	(junction
 		(at 123.19 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce9f1536-2ee7-46bd-bf29-1b94871d5a33")
+	)
+	(junction
+		(at 99.06 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5f80f04-a918-413c-af8f-7d1196ca7907")
 	)
 	(junction
 		(at 91.44 165.1)
@@ -5789,6 +5807,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c919ed-5ff0-4e08-bc70-616db05eff3c")
+	)
+	(wire
+		(pts
 			(xy 139.7 190.5) (xy 144.78 190.5)
 		)
 		(stroke
@@ -5929,6 +5957,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a4fc19-d133-4e1b-a7c7-be6d52884aea")
+	)
+	(wire
+		(pts
 			(xy 195.58 113.03) (xy 195.58 111.76)
 		)
 		(stroke
@@ -5986,6 +6024,16 @@
 			(type default)
 		)
 		(uuid "2789f21c-fb17-4685-8dd1-66b0e51143ee")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b7d61a-fbfb-42e1-948c-e9d3982e450e")
 	)
 	(wire
 		(pts
@@ -6169,6 +6217,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 66.04) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef59020-9aec-458c-b379-3b7eaa4fd3cb")
+	)
+	(wire
+		(pts
 			(xy 55.88 154.94) (xy 66.04 154.94)
 		)
 		(stroke
@@ -6216,16 +6274,6 @@
 			(type default)
 		)
 		(uuid "5c49857e-9ccb-4698-b830-4b9fa11b1511")
-	)
-	(wire
-		(pts
-			(xy 88.9 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60aaec50-34af-4093-a617-95402e611919")
 	)
 	(wire
 		(pts
@@ -6456,16 +6504,6 @@
 			(type default)
 		)
 		(uuid "840e7c82-c190-4ea7-9e80-e7871fdbb7b8")
-	)
-	(wire
-		(pts
-			(xy 88.9 76.2) (xy 111.76 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86090469-b8b5-444c-8b43-305817968551")
 	)
 	(wire
 		(pts
@@ -6829,7 +6867,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 76.2 73.66)
+			(xy 59.69 73.66) (xy 66.04 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6856,6 +6894,16 @@
 			(type default)
 		)
 		(uuid "ce9f5d57-e6ce-41f2-af9e-323eee3c8580")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc8814c-799a-4775-8cd9-dee398e2f132")
 	)
 	(wire
 		(pts
@@ -6889,6 +6937,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 68.58) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d564ddaf-168c-4c3c-aa91-8b4dca83461e")
+	)
+	(wire
+		(pts
 			(xy 123.19 44.45) (xy 132.08 44.45)
 		)
 		(stroke
@@ -6909,7 +6967,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 76.2 76.2)
+			(xy 59.69 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7128,7 +7186,7 @@
 		(uuid "0adc23ec-5382-4aa5-a367-b4ec29ebfd01")
 	)
 	(label "I2C0_SDA"
-		(at 99.06 73.66 180)
+		(at 88.9 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7218,7 +7276,7 @@
 		(uuid "5b21d876-5e98-47e1-ab22-9f91562ef2b4")
 	)
 	(label "I2C0_SCL"
-		(at 99.06 76.2 180)
+		(at 88.9 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9488,8 +9546,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 81.28 76.2 0)
+		(lib_id "custom:Conn_02x02_Odd_Even_custom")
+		(at 71.12 76.2 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9498,7 +9556,7 @@
 		(dnp no)
 		(uuid "3909355d-be11-4f4f-a4a2-4dda147ba1d5")
 		(property "Reference" "J3"
-			(at 82.55 70.612 0)
+			(at 72.39 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,7 +9564,7 @@
 			)
 		)
 		(property "Value" "I2C Headers"
-			(at 82.55 68.072 0)
+			(at 72.39 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9572,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
-			(at 81.28 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9590,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,6 +12231,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb130f0-65b1-44f6-9190-f4879379d930")
+		(property "Reference" "#PWR042"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ae7ed7-1286-4e56-91f5-32070758cb6e")
+		)
+		(instances
+			(project "RP2350A_dev_board"
+				(path "/926c8a6a-9277-4c0a-bb8e-fd477ad159f2"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 193.04 0)
 		(unit 1)
@@ -12633,7 +12756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 76.2 0)
+		(at 59.69 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12641,7 +12764,7 @@
 		(dnp no)
 		(uuid "94d9c394-f5ed-4e2d-a5f5-cbfd8eb326d9")
 		(property "Reference" "#PWR01"
-			(at 69.85 82.55 0)
+			(at 59.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 78.232 0)
+			(at 63.5 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 76.2 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 76.2 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 76.2 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +13148,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 69.85 73.66 0)
+		(at 59.69 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13034,7 +13157,7 @@
 		(dnp no)
 		(uuid "ab28f67d-a6df-42bd-b453-d2a707764825")
 		(property "Reference" "#PWR08"
-			(at 69.85 77.47 0)
+			(at 59.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +13166,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 69.85 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13051,7 +13174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +13183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +13192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,6 +13449,111 @@
 			(project ""
 				(path "/926c8a6a-9277-4c0a-bb8e-fd477ad159f2"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b20270a9-6579-4244-b1a8-3947d0e0464d")
+		(property "Reference" "R15"
+			(at 93.472 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 93.472 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.282 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706277024620544"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor -55℃~+155℃ 100mW 5.1kΩ 75V Thick Film ±1% ±100ppm/℃ 0603"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF5101T5E"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0603WAF5101T5E?qs=e8oIoAS2J1Tj0EjIlasOfQ%3D%3D"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C23186"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b52dac01-0599-41fc-a634-0efedbbcc8cc")
+		)
+		(pin "1"
+			(uuid "a45c0151-787a-4ded-8de5-b2dac6c0f34d")
+		)
+		(instances
+			(project "RP2350A_dev_board"
+				(path "/926c8a6a-9277-4c0a-bb8e-fd477ad159f2"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13930,6 +14158,111 @@
 			(project ""
 				(path "/926c8a6a-9277-4c0a-bb8e-fd477ad159f2"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0184dfe-f6c9-4cb8-83d2-6b79411b19e5")
+		(property "Reference" "R14"
+			(at 102.87 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 102.87 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.362 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706277024620544"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor -55℃~+155℃ 100mW 5.1kΩ 75V Thick Film ±1% ±100ppm/℃ 0603"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF5101T5E"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0603WAF5101T5E?qs=e8oIoAS2J1Tj0EjIlasOfQ%3D%3D"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C23186"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "443d8e50-d59f-46da-8c69-da32660b21c6")
+		)
+		(pin "1"
+			(uuid "b48946ed-9081-452e-a3a5-0571ec9c56d5")
+		)
+		(instances
+			(project "RP2350A_dev_board"
+				(path "/926c8a6a-9277-4c0a-bb8e-fd477ad159f2"
+					(reference "R14")
 					(unit 1)
 				)
 			)
