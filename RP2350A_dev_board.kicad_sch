@@ -2261,7 +2261,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5376,6 +5376,12 @@
 		(uuid "0fd6080b-e18a-488a-842d-713c9209727f")
 	)
 	(junction
+		(at 161.29 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "116621b9-a90c-404d-9210-fb710be3c71f")
+	)
+	(junction
 		(at 58.42 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5406,12 +5412,6 @@
 		(uuid "2efa6ac4-b2b5-435a-b5e8-1b8982789c1a")
 	)
 	(junction
-		(at 170.18 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "356f7978-d838-4caf-9814-386ce25f4e6d")
-	)
-	(junction
 		(at 55.88 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5424,12 +5424,6 @@
 		(uuid "38e65c4f-a8b4-419a-b289-31ec053db20f")
 	)
 	(junction
-		(at 160.02 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39289d71-cccf-4102-bf64-a58c553f2f0e")
-	)
-	(junction
 		(at 180.34 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5440,6 +5434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff85c0e-7c7b-47be-8d9f-9e53bbc38198")
+	)
+	(junction
+		(at 161.29 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ad65e5-32e2-4759-a5b0-2bc1a08ef670")
 	)
 	(junction
 		(at 233.68 149.86)
@@ -5506,6 +5506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9adbd4-d03b-4299-aeef-989d3b1b6bd3")
+	)
+	(junction
+		(at 170.18 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c60e75a-4a4a-45c6-b601-b9d225a0b49c")
 	)
 	(junction
 		(at 144.78 49.53)
@@ -5590,12 +5596,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c30d1ec9-efec-4829-993e-d96e7a37977b")
-	)
-	(junction
-		(at 160.02 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6bfff70-ec76-48f8-bcaf-dac80bbdff4f")
 	)
 	(junction
 		(at 123.19 36.83)
@@ -5799,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 160.02 39.37)
+			(xy 151.13 39.37) (xy 161.29 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6009,6 +6009,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4411c6-6207-4888-9986-aff0905de6ac")
+	)
+	(wire
+		(pts
 			(xy 182.88 66.04) (xy 195.58 66.04)
 		)
 		(stroke
@@ -6069,6 +6079,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 31.75) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef5b17a-271f-41de-b355-3d8db1cde1f4")
+	)
+	(wire
+		(pts
 			(xy 87.63 36.83) (xy 96.52 36.83)
 		)
 		(stroke
@@ -6086,16 +6106,6 @@
 			(type default)
 		)
 		(uuid "4a54e0f1-087b-4fe2-8580-7acb0d815cbb")
-	)
-	(wire
-		(pts
-			(xy 160.02 31.75) (xy 170.18 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b72d1c6-f587-4bfc-ba0b-4d42ec5c1f4c")
 	)
 	(wire
 		(pts
@@ -6669,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 31.75) (xy 160.02 31.75)
+			(xy 151.13 31.75) (xy 161.29 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6686,16 +6696,6 @@
 			(type default)
 		)
 		(uuid "af882c6b-2b96-400f-bcaa-67ee0173ab4e")
-	)
-	(wire
-		(pts
-			(xy 160.02 39.37) (xy 170.18 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23b6a7d-7d11-4730-9494-dff6d9df70ab")
 	)
 	(wire
 		(pts
@@ -9374,7 +9374,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 35.56 0)
+		(at 170.18 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9383,7 +9383,7 @@
 		(dnp no)
 		(uuid "374ae88c-2a2e-4541-9dda-7059ae467e88")
 		(property "Reference" "C14"
-			(at 157.734 35.56 0)
+			(at 167.894 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9392,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 159.512 38.1 0)
+			(at 169.672 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9401,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 159.0548 39.37 0)
+			(at 169.2148 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9410,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9419,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Unpolarized Capacitors"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9428,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9455,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082?s=N4IgTCBcDaIMJwAwDZEGYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9464,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C14663"
-			(at 160.02 35.56 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 35.56 0)
+		(at 161.29 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10519,7 +10519,7 @@
 		(dnp no)
 		(uuid "573b1ad5-cf35-4b1d-9043-d1cb5653efc0")
 		(property "Reference" "C15"
-			(at 167.386 35.56 0)
+			(at 158.496 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,7 +10528,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 169.672 37.846 0)
+			(at 160.782 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +10537,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.2148 39.37 0)
+			(at 160.3248 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10546,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19666.pdf"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +10555,7 @@
 			)
 		)
 		(property "Description" "Capacitor, 4.7uF ±10% 16V Ceramic X5R 0603"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +10564,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +10573,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A475KO8NNNC"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10582,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A475KO8NNNC?qs=X6jEic%2FHinAbIjmLnFfqqQ%3D%3D"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10591,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KO8NNNC/3887442?s=N4IgTCBcDaIMIBkCMAGAggFgOwFYDSA8gBwByZcABCALoC%2BQA"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +10600,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C19666"
-			(at 170.18 35.56 0)
+			(at 161.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +14480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inductors:AOTA-B201610S3R3-101-T"
+		(property "Footprint" "custom:AOTA-B201610S3R3-101-T_custom"
 			(at 39.116 30.226 0)
 			(effects
 				(font
