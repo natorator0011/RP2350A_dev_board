@@ -2117,7 +2117,7 @@
 					)
 				)
 			)
-			(property "Footprint" "inductors:AOTA-B201610S3R3-101-T"
+			(property "Footprint" "custom:AOTA-B201610S3R3-101-T_custom"
 				(at -1.524 6.604 0)
 				(effects
 					(font
@@ -2290,7 +2290,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom:RP2350A"
+		(symbol "custom:RP2350A_custom"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2303,7 +2303,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RP2350A"
+			(property "Value" "RP2350A_custom"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -2384,7 +2384,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2350A_0_0"
+			(symbol "RP2350A_custom_0_0"
 				(pin bidirectional line
 					(at 0 -3.81 0)
 					(length 2.54)
@@ -3448,7 +3448,7 @@
 					)
 				)
 			)
-			(symbol "RP2350A_1_0"
+			(symbol "RP2350A_custom_1_0"
 				(pin bidirectional line
 					(at 71.12 -33.02 180)
 					(length 2.54)
@@ -3468,7 +3468,7 @@
 					)
 				)
 			)
-			(symbol "RP2350A_1_1"
+			(symbol "RP2350A_custom_1_1"
 				(rectangle
 					(start 0 0)
 					(end 71.12 -71.12)
@@ -7706,7 +7706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:RP2350A")
+		(lib_id "custom:RP2350A_custom")
 		(at 111.76 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
